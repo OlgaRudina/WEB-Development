@@ -1,0 +1,184 @@
+body {
+	background: url( images/bg.jpg) center 0px no-repeat;
+	font-family:Verdana, Arial, Sans-serif;
+	font-size:100%;
+	color:#605D5C;
+	margin:0px;
+}
+#main {
+	width: 65em;
+	height: 45em;
+	margin: 0 auto;
+}
+
+header {
+	
+	display: block;
+	height: 2em;
+	width:40em;
+	margin-top: 10em;
+	margin-left: 18em;
+	border-bottom: #FFDF5A dotted 2px;
+	position: relative;
+
+}
+
+.menu{
+	width: 5em;
+	position:absolute;
+	
+
+}
+nav ul {
+	
+    width: 5em;
+	height: 6em;
+    list-style-image: none;
+    list-style-type: none;
+	font-family: 'Clicker Script', cursive;
+	font-weight: bold;
+	font-size: 2em;
+    border-right: #FFDF5A dotted 2px;
+	margin: -13em 0em 0em 1em;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+	color:#00AEC4;
+	
+}
+
+
+
+footer{
+	
+	position: absolute;
+	margin: 0em 0em 0em 15em;
+	text-align: center;
+	margin-top: 12em;
+	color:#00AEC4;
+	font-family: 'Clicker Script', cursive;
+	font-size: 160%;
+}
+
+h1.title{
+	
+	font-family: 'Clicker Script', cursive;
+	color: #00AEC4;
+	font-size: 240%;
+	height:10%;
+	top: 1em;
+	position: relative;
+	border-bottom: #FFDF5A dotted 2px;
+}
+
+.declaration {
+	
+    float:left;
+	width:39em;
+	margin: -24em 21em 16em 18em;
+	font-family: 'Special Elite', cursive;
+    border-bottom: #FFDF5A dotted 2px;
+
+}
+
+#logo {
+    margin: -10em 19em 32em 40em;
+	position:relative;
+}
+
+.regform{
+
+	width: 39em;
+	height: 39em;
+	float: left;
+	margin-top: -415px;
+	margin-right: 200px;
+	margin-left: 300px;
+	margin-bottom: 0;
+	overflow: hidden;
+	overflow-x: hidden;
+	
+}
+
+input{
+	position: relative;	
+	border: dotted 1px #0E0001;
+}
+#provinces{
+	border: dotted 1px #0E0001;
+}
+#rform
+{
+	font-family: 'Special Elite', cursive;
+	color: #1A0202;
+	position: relative;	
+	width: 39em;
+	height: 39em;
+
+	
+}
+
+label{
+	
+  display: block;
+  float: left;
+  width: 8em;
+  height: 1em;
+  position: relative;	
+}
+
+.submitbutton{
+	
+background: transparent url(images/submit1.png) no-repeat center top;
+border: 0;
+width: 8em; 
+height: 3em; 
+text-indent: -1000em;  
+cursor:pointer; 
+margin: -9em 0em 0em 30em; 
+outline:none;
+	
+}
+.resetbutton{
+	
+background: transparent url(images/reset1.png) no-repeat center top;
+border: 0;
+width: 8em; 
+height: 3em; 
+text-indent: -1000em;  
+cursor:pointer; 
+outline:none;	
+}
+
+
+label span{
+	position: relative;	
+	color: red;
+	font-size: 10px;
+}
+
+a:link{
+	
+  color:#00AEC4;
+	
+}
+
+a:visited{
+	
+	color:#F18700;
+}
+
+a:active{
+	
+	color:#00AEC4;
+}
+
+aside{
+	font-size:80%;
+	display: block;
+	font-family: 'Special Elite', cursive;
+	color:#C10101;
+	margin:-628px 0px 0px 330px;
+}

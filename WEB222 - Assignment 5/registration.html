@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+	
+<meta charset="utf-8">
+	
+<title>Rudina</title>
+	
+<link rel="stylesheet" href="normalize1.css" />
+<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+	
+<script src="registration.js"></script>
+
+</head>
+
+<body>
+	
+<div id="main">
+	
+	<header>
+                <div class="center">
+                <h1 class="title">
+                    Registration
+                </h1>
+		</div>
+		
+	</header>
+	
+	<img id="logo" src= "images/x800_1374967795_x800_1371509959_resizedimage.png" alt="logo">
+	
+	<div class="regform">
+		
+	<form id="rform" autocomplete="off" name="signup" onsubmit="return validate()" method="post" action="https://httpbin.org/post">
+		
+   <label>Username <span>*</span></label><input type="text" id="username" name="uname" required="" size="20" value="" maxlength="15"/>	
+		<br>
+		<br>
+   <label>Password <span>*</span></label><input type="password" id="password" name="pass" required="" size="20" value="" maxlength="8"/>
+		<br>
+		<br>
+		<label>Confirm Password <span>*</span></label><input type="password" id="password2" name="pass2" required="" size="20" value="" maxlength="8"/>
+		<br>
+		<br>
+		<br>
+	<label>Email <span>*</span></label><input type="text" id="email" name="email" required="" size="20" value=""/>	
+		<br>
+		<br>
+	<label title="Phone format." for="phoneNum">Phone#<span>*</span></label><input type="text" id="phoneNum" name="phone" required="" size="20" value="" maxlength="15" placeholder= "###-##-####"/>
+		<br>
+		<br>
+	<label>Province <span>*</span></label>	
+		<select id="provinces" name="prov">
+			<option value="ON" selected>ON</option>
+            <option value="NL">NL</option>
+            <option value="PE">PE</option>
+            <option value="NS">NS</option>
+			<option value="NB">NB</option>
+            <option value="QS">QS</option>
+            <option value="MB">MB</option>
+            <option value="SK">SK</option>
+			<option value="AB">AB</option>
+            <option value="BC">BC</option>
+            <option value="YT">YT</option>
+            <option value="NT">NT</option>
+			<option value="NU">NU</option>
+</select>	
+		<br>
+		<br>
+	<label>City <span>*</span></label><input type="text" id="city" name="city" required="" size="20" value=""/>
+		<br>
+		<br>
+	<label>Street<span>*</span></label><input type="text" id="street" name="streetName" required="" size="20" value=""/>
+        <br>
+		<br>
+		<label>Zip Code <span>*</span></label><input type="text" id="zipcode" name="zip" required="" size="7" value="" />
+		<br>
+		<br>
+		<input type="hidden" name="lastName" id="lastName" value="Olga Rudina"/>
+		<br>
+		<br>
+	    <input type="hidden" name="studentId" id="studentId" value="039949136" />
+		<input class = "submitbutton" type="submit"/>
+		<input class = "resetbutton" type="reset"/>
+		</form>
+		
+		<aside>
+		<div id="errors"></div></aside>
+		</div>
+		
+	
+<nav id="menu">
+	
+<div class="center">
+	
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "registration.html">Registration</a></li>
+		</ul>
+</div>
+</nav>
+	
+
+<footer>
+			<div class="copyright">
+                &copy; 2018 Olga Rudina
+            </div>
+</footer>
+		
+
+</div>
+</body>
+</html>

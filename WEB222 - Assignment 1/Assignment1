@@ -1,0 +1,170 @@
+/*****************************
+* Task 1
+*****************************/
+
+var student_name = "Olga Rudina";
+var number_of_courses = 5;
+var program = "CPD";
+
+var job = prompt("Do you have a part-time job? (yes/no)");
+var answer = (job == "yes")? "have" : "don't have";
+
+console.log("My name is " + student_name + " and I’m in " + program + " program. I’m taking " + number_of_courses + " courses in this semester and I " + answer +  " a part‐time job now.");
+
+/*****************************
+* Task 2
+*****************************/
+
+var year = 2018;
+var age = prompt("Enter your age: ");
+var born = "You were born in the year of " + (year - age) + ".";
+    
+console.log(born);
+
+var studyperiod = prompt("Enter the number of years you expect to study in the college: ");
+                         
+var graduate = "You will graduate from Seneca college in the year " + (year + Number(studyperiod)) + ".";
+
+console.log(graduate);
+
+/*****************************
+* Task 3
+*****************************/
+
+var Celsius = prompt("Enter temperature in Celsius ");
+var toFahrenheit = Celsius + "°C is " + (Celsius * 1.8 + 32) + "°F.";
+console.log(toFahrenheit);
+var Fahrenheit = (Celsius *  1.8 + 32);
+var toCelsius = Fahrenheit + "°F is " + (Fahrenheit  -  32)  / 1.8 + "°C.";
+console.log(toCelsius);
+
+/*****************************
+* Task 4
+*****************************/
+
+
+for (var i=0; i<=10; i++)
+  {
+   
+    if (i%2 == 1 || i == 0)
+      console.log(i + " is even");
+    else if (i%2 == 0)
+      console.log(i + " is odd");
+  };
+
+/*****************************
+* Task 5
+*****************************/
+
+function largerNum(x,y)
+{
+  var x = prompt("Enter 1st number: ");
+  var y = prompt("Enter 2nd number: ");
+
+  if (x > y) 
+  { return "The larger number of " + x + " and " + y + " is " + x }
+  
+  else if (y > x)
+  { return "The larger number of " + x + " and " + y + " is " + y }
+ 
+}
+
+console.log(largerNum());
+
+var largerNum = function (x,y)
+{
+  var x = prompt("Enter 1st number: ");
+  var y = prompt("Enter 2nd number: ");
+
+  if (x > y) 
+  { return "The larger number of " + x + " and " + y + " is " + x }
+  
+  else if (y > x)
+  { return "The larger number of " + x + " and " + y + " is " + y }
+ 
+}
+
+console.log(largerNum());
+
+/*****************************
+* Task 6
+*****************************/
+
+
+function Evaluator() {
+  var length = arguments.length;
+  var sum = 0;
+  var avg = 0;
+  for(var i=0; i<length; i++) {
+    sum = sum + arguments[i];
+    avg = sum/length;
+  }
+  
+  if (avg >= 50)
+    {return "Average greater than or equal to 50: true"}
+  else 
+    {return "Average greater than or equal to 50: false"}
+  
+}
+
+console.log(Evaluator(120,143));
+console.log(Evaluator(1,2,3));
+console.log(Evaluator(164,237,98,1));
+
+
+/*****************************
+* Task 7
+*****************************/
+
+var Grader = function (mark)
+
+{
+  
+var mark;
+  
+if (mark >= 90)
+ mark = "A+";
+
+else if  (mark >= 80)
+mark ='A';
+  
+else if (mark >= 70)
+mark ='B';
+  
+else if (mark >= 60)
+mark ='C';
+  
+else if (mark >= 50)
+mark ='D';
+  
+else
+mark ="F";
+ 
+return mark;
+}
+
+console.log(Grader(95));
+console.log(Grader(68));
+console.log(Grader(49));
+
+
+/*****************************
+* Task 8
+*****************************/
+
+function showMultiples(num, numMultiples)
+{
+  var result = [];
+  
+  for(i = 1; i <= numMultiples; i++)
+    {
+      result.push("\n" + num + "x" + i + "=" + num * i +"\n");
+    }
+  return result.join(' ');
+}
+
+console.log(showMultiples(5,4));
+console.log(showMultiples(7,3));
+console.log(showMultiples(22,2));
+
+

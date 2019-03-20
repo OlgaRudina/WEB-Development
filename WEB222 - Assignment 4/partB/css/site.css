@@ -1,0 +1,146 @@
+/********************************************************************************* 
+* 
+* WEB222 – Assignment #4b 
+* 
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Olga Rudina Student ID: 039949136 Date: 15/07/2018 
+* 
+********************************************************************************/
+
+
+/* styling the main container */
+
+.main-container {
+	
+	max-width: 960px;
+	margin: 0px auto;
+}
+
+/*styling navigation of the main-container*/
+
+.main-container nav {
+	
+	width: 30%;
+	float: left;
+}
+
+/* styling the main container of the page aligning it to the right*/
+
+.main-container .main {
+	
+	width: 70%;
+	float: right;
+	
+	
+}
+
+/*styling the header of the page*/
+.main-container header {
+	
+	padding: 10px;
+	background-color: #eeeeee;
+	border-bottom: #cccccc solid 1px;
+	margin-bottom: 30px;
+}
+
+
+/*styling header which is child of the main-container*/
+
+.main-container header h1 {
+
+	width: 70%;
+	font-size: 24px;
+	float: right;
+	text-align: right;
+	margin-top: 10px;
+	
+}
+
+/*styling the footer which is child of the main-container*/
+
+.main-container footer {
+	
+	clear: both;
+	padding: 20px 10px;
+	background-color: #eeeeee;
+	border-top: #cccccc solid 1px;
+	font-size: 13px;
+}
+
+/*styling the logo*/
+
+#logo {
+	
+	width: 30px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/*styling the main logo*/
+
+#logo img {
+	
+	width: 94px;
+	vertical-align: middle;
+}
+
+/*styling the navigation of the page*/
+
+nav ul {
+	
+	list-style-type: none;
+}
+
+nav ul a {
+	
+	display: block;
+	text-decoration: none;
+	padding: 5px;
+}
+
+/*styling the main section of the page pictures with the description*/
+
+div.province {
+	
+	width: 30%;
+	float:left;
+	margin: 8px;
+	height: 310px;
+}
+
+div.province .description {
+	
+	max-height: 165px;
+	overflow-x: hidden;
+	overflow-y:scroll;
+	margin-top:8px;
+    margin-bottom:8px;
+}
+
+
+/*Styling links of each provinces*/
+
+div.province a {
+	
+	display: block;
+	text-align: center;
+	background-color: #555555;
+	color: #eeeeee;
+	text-decoration: none;
+	padding: 5px;
+}
+
+/*Styling the class flag which is located inside the image*/
+
+img.flag {
+	
+	width: 100%;
+}
+
+
+
+
